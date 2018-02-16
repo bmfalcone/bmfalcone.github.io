@@ -251,8 +251,8 @@ img.Snippet {
 	width: 25%;
 }
 
-body { background-color: red; max-width: 100%; }
-
+body { background-color: red; overflow-x: hidden; }
+html { overflow-x: hidden; }
 
 }
 
