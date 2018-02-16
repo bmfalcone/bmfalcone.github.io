@@ -1,7 +1,7 @@
 
 :root {
-    --main-width: 880px;
-	--section-padding: 60px;
+    --main-width: 60%;
+	--main-padding: 5%;
 }
 
 .Header {
@@ -13,7 +13,7 @@
 }
 
 .Global_Navigation {
-	width: 1000px;
+	width: calc(var(--main-width) + var(--main-padding) + var(--main-padding));
 	margin: 0 auto;
 	/text-align: center;
 	padding-top:40px;
@@ -23,7 +23,7 @@
 .Home_Tab {
 	/padding-left: 50px;
 	/padding-right: 100px;
-	font-size: 2.5em;
+	font-size: 2em;
 	font-weight: bold;
 	font-family: 'Assistant', sans-serif;
 }
@@ -61,7 +61,7 @@ a, a:visited , a:hover, a:focus, a:active { text-decoration: none; color:black; 
 	margin: 0 auto;
 	margin-top:20px;
 	margin-bottom: 40px;
-	padding: 60px;
+	padding: var(--main-padding);
 
 	border-style: solid;
 	border-width: 10px;
@@ -112,7 +112,7 @@ p {
 	
 	/margin: 0 auto;
 	/margin-bottom: 40px;
-	width: var(--main-width);
+	width: 100%;
 	margin: 0 auto;
 	/margin-left:50px;
 
@@ -152,7 +152,7 @@ img.Snippet {
 }
 
 img.Sketch {
-	width: 293px;
+	width: 33%;
 	float: left;
 	display: inline-block;
 	/margin: 10px;
@@ -169,13 +169,13 @@ img {
 }
 
 img.Large_Image {
-	width: var(--main-width);
+	width: 100%;
 	/margin-left: 50px;
 	margin-top: 20px;
 }
 
 img.Duo_Image {
-	width:440px;
+	width: 50%;
 	margin:0 auto;
 	padding:0;
 	float: left;
@@ -193,40 +193,31 @@ img.Duo_Image {
 @media only screen and (max-width: 768px) {
     /* For Tablets: */
 :root {
-    --main-width: 460px;
-}
-
-.Global_Navigation {
-	width: 620px;
+    --main-width: 70%;
+	--main-padding: 5%;
 }
 
 .Home_Tab {
-	font-size: 2em;
-}
-
-.Tab {
 	font-size: 1.5em;
 }
 
-.Section {
-	padding: 30px;
+.Tab {
+	font-size: 1em;
+	padding-left: 25px;
 }
 
+
 h1 {
-	/font-size: 3em;
+	font-size: 3em;
 }
 
 img.Snippet {
 	width: 25%;
 }
 
-img.Sketch {
-	width: 166px;
-}
 
-img.Duo_Image {
-	width: 250px;
-}
+body { background-color: green; }
+
 
 
 }
@@ -234,39 +225,26 @@ img.Duo_Image {
 @media only screen and (max-width: 480px) {
     /* For Mobile Phones: */
 :root {
-    --main-width: 400px;
-}
-
-.Global_Navigation {
-	width: 620px;
+    --main-width: 85%;
+	--main-padding: 5%;
 }
 
 .Home_Tab {
-	font-size: 2em;
+	font-size: 1.5em;
+	
 }
 
 .Tab {
-	font-size: 1.5em;
-}
-
-.Section {
-	padding: 20px;
+	font-size: 1em;
+	padding-left: 25px;
 }
 
 h1 {
-	/font-size: 3em;
+	font-size: 3em;
 }
 
 img.Snippet {
 	width: 25%;
-}
-
-img.Sketch {
-	width: 166px;
-}
-
-img.Duo_Image {
-	width: 250px;
 }
 
 body { background-color: red; }
