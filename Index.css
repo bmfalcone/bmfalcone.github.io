@@ -1,0 +1,144 @@
+body {
+	background-color: #EAF9F9;
+	margin: 0px;
+	/height:1200px;
+}
+
+.Header {
+	width: 100%;
+	background-color: #33CCCC;
+	/padding: 0px;
+	/margin: 0 auto;
+	
+}
+
+.Global_Navigation {
+	width: 1000px;
+	margin: 0 auto;
+	/text-align: center;
+	padding-top:40px;
+	padding-bottom: 40px;
+}
+
+.Home_Tab {
+	/padding-left: 50px;
+	/padding-right: 100px;
+	font-size: 2.5em;
+	font-weight: bold;
+	font-family: 'Assistant', sans-serif;
+}
+
+.Tab {
+	padding-left: 50px;
+	font-size: 1.5em;
+	font-family: 'Varela Round', sans-serif;
+}
+
+.Hi {
+	font-size: 3em;
+	margin-top: 20px;
+	font-family: 'Raleway', sans-serif;
+}
+
+.About {
+	font-size: 2em;
+	margin-bottom: 75px;
+	font-family: 'Raleway', sans-serif;
+}
+
+h2 {
+	
+	font-family: 'Raleway', sans-serif;
+	font-weight: normal;
+}
+
+.Body {
+	padding-top: 60px;
+	width:1000px;
+	margin: 0 auto;
+	/background-color:red;
+}
+
+.Project {
+	width: 860px;
+	height: 460px;
+	padding: 20px;
+	
+	/border-style: solid;
+	/border-width: 10px;
+	/border-radius: 10px;
+	
+	/padding: 20px;
+	
+	background-color: #c1efef;
+	/border-color: #33CCCC;
+	float: left;
+
+}
+
+
+
+.Title {
+	font-size: 2.5em;
+	font-weight: bold;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-family: 'Raleway', sans-serif;
+}
+
+img {
+	width: 500px;
+
+}
+
+.Details {
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 40px;
+	width: 200px;
+}
+
+.Detail_Title {
+	margin-top: 0px;
+	font-size:2em;
+	font-weight: bold;
+	font-family: 'Raleway', sans-serif;
+	margin-bottom: 10px;
+}
+
+.Detail_Item{
+	margin-top: 0px;
+	font-size:1em;
+	font-family: 'Varela Round', sans-serif;
+}
+
+.View_Project {
+	display: inline-block;
+	vertical-align: top;
+	/margin-left: 40px;
+	background-color: red;
+	width: 100px;
+	height: 500px;
+	float: left;
+	/overflow: hidden;
+	/margin-left: 10px;
+	background-color: #33CCCC;
+	
+	display:flex;
+	align-items:center;
+	justify-content:center;
+}
+
+.View_Project:hover {
+	cursor: pointer;
+}
+
+.Arrow {
+	width: 50px;
+	/display: block;
+	/margin: auto;
+}
+
+
+
+
