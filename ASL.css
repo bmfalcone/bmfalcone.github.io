@@ -17,7 +17,7 @@
 	margin: 0 auto;
 	/text-align: center;
 	padding-top:40px;
-	padding-bottom: 20px;
+	padding-bottom: 40px;
 }
 
 .Home_Tab {
@@ -143,9 +143,10 @@ li {
 }
 
 img.Snippet {
-	width: 20%;
+	width: 30%;
+	max-width: 200px;
 	display: inline-block;
-	margin: 10px;
+	margin: 1%;
 	margin-top: 20px;
 	margin-bottom: 0px;
 	/padding-bottom: 10px;
@@ -181,6 +182,26 @@ img.Duo_Image {
 	float: left;
 }
 
+
+
+.Footer_A {
+	width:50%;
+	float: left;
+	font-size: 0.75em;
+}
+
+.Footer_B {
+	width:50%;
+	float: right;
+	text-align:right;
+	font-size: 0.75em;
+
+}
+
+
+
+
+
 @media only screen and (max-width: 1600px) {
     /* For Laptops (Current Display): */
 
@@ -215,7 +236,20 @@ img.Snippet {
 	width: 25%;
 }
 
+.Footer_A {
+	width:100%;
+	text-align:center;
+	/font-size: 1em;
+	float:none;
+}
 
+.Footer_B {
+	width:100%;
+	text-align:center;
+	/font-size: 1em;
+	float:none;
+
+}
 
 
 
@@ -228,6 +262,12 @@ img.Snippet {
 	--main-padding: 5%;
 }
 
+.Global_Navigation {
+
+	padding-top:20px;
+	padding-bottom: 20px;
+}
+
 .Home_Tab {
 	font-size: 1em;
 	
@@ -235,6 +275,7 @@ img.Snippet {
 
 .Section {
 	border-width: 10px;
+	padding-bottom: 10%;
 
 }
 
