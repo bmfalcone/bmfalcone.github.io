@@ -183,6 +183,14 @@ img {
 	padding-left: 25px;
 }
 
+.Hi {
+	font-size: 2em;
+}
+
+.About {
+	font-size: 1.5em;
+}
+
 
 h1 {
 	font-size: 3em;
@@ -243,6 +251,14 @@ img.Snippet {
 .Home_Tab {
 	font-size: 1em;
 	
+}
+
+.Hi {
+	font-size: 1.5em;
+}
+
+.About {
+	font-size: 1em;
 }
 
 .Section {
