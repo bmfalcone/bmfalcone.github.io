@@ -54,9 +54,9 @@
 		After spending 1 year learning from books at my local library and occasional practice with a signing friend, I came up with an idea for a much needed online resource for learning the language.</p>
 				
 		<h2>Analyzing the Current Situation</h2>
-		<p>During my journey to teach myself American Sign Language, I analyzed a variety of digital and physical resources on the web and at my local library. 
+		<p>I analyzed a variety of digital and physical resources on the web and at my local library. 
 		Finding a single website that taught ASL vocabulary, grammar, and sentence structure was difficult to find. 
-		Existing websites that attempted to teach all of these subject were plagued with design issues making it unpleassant and difficult to learn.   		
+		Existing websites that attempted to teach all of these subject were plagued with design issues making them unpleassant and difficult to learn.   		
 		The websites I discovered from Google’s top search results contained the following issues:</p>
 		
 		<ol>
@@ -66,28 +66,27 @@
 		</ol>
 		
 		<h2>User Research</h2>
-		<p>By being conveniently located near Gallaudet University, a federally chartered university for the education of the Deaf, I had better access to
-		those who have learned American Sign Language than anywhere in the country. 
-		I needed to understand how people learn ASL outside of my own personal experiences. 
+		<p>I needed to understand how people learn ASL outside of my own learning experiences in order to understand the needs of different users.
+		By being conveniently located near Gallaudet University, a federally chartered university for the education of the Deaf, I had more access to
+		ASL signers than anywhere in the country. 
 		I prepared some research questions, journied to a familiar campus setting, and interviewed students. 
-		I sought out how users learned the language, what difficulties they faced, and tips for others wanting to learn the language.
-		By researching their learning experiences, I could better understand their user needs. </p>
+		I sought out how users learned the language, what difficulties they faced, and tips for others wanting to learn the language.</p>
 		
 		<img src="images/campus.jpg"; class="Large_Image"></img>
 		
 		<h2>Requirements Extraction</h2>
 		<p>Constructing a WAAD (Work Activity Affinity Diagram) is one of my favorite exercises in a UX lifecycle process. 
 		To begin, I converted the contextual data I gathered from user research into work activity notes. 
-		I grouped these notes into relaed issues and themes and applied labels to each group.
+		I grouped these notes into related issues and themes and attached labels to each group.
 		I analyzed the completed WAAD and formed requirement statements, each one focusing on a partular user need or system function. 
 		Below is a sample requirement statement that was created.</p>
 		
 		<img src="images/requirement_statement.png"; class="Large_Image"></img>
 		
-		<h2>Primary Goals</h2>
-		<p>My goal was to provide people beginning to learn ASL with a complete guide to the language in a user friendly way. 
-		I also wanted to improve on the issues found in existing websites by having better navigation, more exploration, and faster learning capabilities.
-		Most importantly, the website needed to be usable and provide beginner ASL learners with a useful..... </p>
+		<h2>Goals</h2>
+		<p>My goal was to provide people beginning to learn ASL with a complete guide to the language in addition to addressing the issues found in existing websites. 
+		My solution to these issues would be to have better navigation, more exploration, and faster learning capabilities.
+		Most importantly, the website needed to be usable by my target audience.</p>
 		
 	</div>
 	
@@ -131,8 +130,9 @@
 		<h2>User Flow & Navigation Design</h2>
 		<p>Signs and Syntax are the 2 main components of ASL. I wanted to keep these two separate in order to accomodate the two major user tasks.
 		I designed a system that would allow users to freely switch between these tasks.
-		The page dedicated to learning signs includes a preview of syntax lessons with links to webpages containing more information on the syntax. 
-		These syntax webpages includes example ASL phrases where each sign in the phrase contains a link to it's associated webpage.</p>
+		Each Sign Page includes example ASL phrases pertaining to a few syntax lessons. 
+		Clicking on the lesson will take you to the Lesson Page where you can learn all about syntax.
+		When clicking on an ASL vocabulary word from the Lesson Page, you will be routed to the word's associated Sign Page.</p>
 		
 		<img src="images/user_flow.png"; class="Large_Image"></img>
 		
@@ -141,7 +141,7 @@
 		<img src="images/site_map.jpg"; class="Large_Image"></img>
 		
 		<h2>Analyzing Designs</h2>
-		<p>I looked for the best design that would meet the users goals and the primary goals of the system. 
+		<p>I looked for the best design that would meet the users needs and the primary goals of the system. 
 		My first few designs were not the best in meeting these goals. 
 		Only after iterative cyles of UX evaluation and design refinement was I confident that I was on the right track to creating the right design.</p>
 		
@@ -154,29 +154,29 @@
 		<h1>Information Architecture</h1>
 		
 		<h2>Design of Information</h2>
-		<p>The website is designed such that when a user is interested in learning a particular ASL sign, 
-		he/she is able to find related signs that categorically belong together. 
-		For example, when the user is learning the sign for TODAY, he/she is able to learn the sign for YESTERDAY with a single click 
-		since these signs both belong in the “time” category. Grouping signs into categories gives structure to the website, 
-		and provides easy learning and fast findability.</p>
+		<p>The design of the website allows the user to quickly learn signs that strongly relate to each other.
+		For example, the signs for TODAY and YESTERDAY are contained on the same page since they both belong to the TIME category.
+		Grouping signs into categories gives structure to the website and provides easy learning and fast findability.</p>
 		
 		<h2>Searchability & Findability</h2>
-		<p>I developed an information architecture for the website such that the content is findable and searchable. 
-		To have good findability, a search bar is a part of the site’s global navigation where users are able to search for any ASL sign. 
-		A page exists for each category of signs, and contextual navigation provides a list of the categories at all times.
+		<p>Te information architecture of the website allows content to be both finable and searchable.
+		To have good findability, global navigation contains a search bar where users can search for any ASL sign. 
+		A page exists for each category of signs, and contextual navigation provides a list of these categories at all times.
 		<br></br>
 		To have good searchability, users need to be able to easily find information from an unknown location, such as Google. 
 		Since web pages exist for each category of sign and not to any individual sign, I anticipated this would create poor searchability in the Google search results. 
-		URLs such as <b>theASLguide.com/category/time</b> might look irrelevant in the search results to someone who searched for “today ASL sign”. 
-		I found a good way around this issue by using the description attribute within the meta tag for each web page.  
-		All of the signs that fall into a certain category will be included in this tag and therefore will be displayed as part of the Google search result.</p>
+		URLs such as <b>theASLguide.com/category/time</b> might look irrelevant in the search results to someone searching for “today ASL sign”. 
+		My solution was to attach a list of all ASL words that fall into a certain cateogry to the description attribute within the meta tag for each category page.
+		This allows for the sign being searched to appear in the Google search result.</p>
 		<img src="images/google_result.png"; class="Large_Image"></img>
 
 		<h2>Labels</h2>
-		<p>The primary method for grouping signs together into categories and then labeling each category was through Card Sorting. 
-		Check out the UX Evaluation section below for a unique strategy for creating categories for hundreds of ASL vocabulary words.</p>
-		
-		
+		<p>Grouping signs into categories is a major part of the website's organization.
+		Using the Codenames board game, I was able to quickly conduct an Open Card Sort using 200+ words, each representing an ASL vocabulary word.
+		I was able to validate some existing categories and identify new ones. 
+		Additional Closed Card Sorting sessions focused on specially chosen words would be beneficial for validating the signs of a few categories.  </p>
+		<img src="images/card_sort.jpg"; class="Large_Image"></img>
+
 		<h2>Content Model</h2>
 		<img src="images/content_model.jpg"; class="Large_Image"></img>
 		
