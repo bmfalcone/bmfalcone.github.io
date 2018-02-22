@@ -1,7 +1,7 @@
-body {
-	background-color: #EAF9F9;
-	margin: 0px;
-	height:1200px;
+
+:root {
+    --main-width: 60%;
+	--main-padding: 5%;
 }
 
 .Header {
@@ -13,7 +13,7 @@ body {
 }
 
 .Global_Navigation {
-	width: 1000px;
+	width: calc(var(--main-width) + var(--main-padding) + var(--main-padding));
 	margin: 0 auto;
 	/text-align: center;
 	padding-top:40px;
@@ -23,7 +23,7 @@ body {
 .Home_Tab {
 	/padding-left: 50px;
 	/padding-right: 100px;
-	font-size: 2.5em;
+	font-size: 2em;
 	font-weight: bold;
 	font-family: 'Assistant', sans-serif;
 }
@@ -34,110 +34,140 @@ body {
 	font-family: 'Varela Round', sans-serif;
 }
 
-.Hi {
-	font-size: 3em;
-	margin-top: 20px;
-	font-family: 'Raleway', sans-serif;
+body {
+	background-color: #EAF9F9;
+	margin: 0px;
+	/height: 300%;
 }
 
-.About {
-	font-size: 2em;
-	margin-bottom: 50px;
-	font-family: 'Raleway', sans-serif;
-}
-
-h2 {
-	
-	font-family: 'Raleway', sans-serif;
-	font-weight: bold;
-}
+a, a:visited , a:hover, a:focus, a:active { text-decoration: none; color:black; }
 
 .Body {
-	padding-top: 60px;
-	width:1000px;
+	width: calc(var(--main-width) + var(--main-padding) + var(--main-padding));
 	margin: 0 auto;
-	/background-color:red;
+	margin-bottom: 30%;
+	margin-top: 40px;
+	position: relative;
 }
 
-.Project {
-	width: 860px;
-	height: 460px;
-	padding: 20px;
-	
-	/border-style: solid;
-	/border-width: 10px;
-	/border-radius: 10px;
-	
-	/padding: 20px;
-	
-	background-color: #c1efef;
-	/border-color: #33CCCC;
-	float: left;
-
+.Chunk {
+	width: 100%;
+	margin-bottom:75px;
+	display: flex;
 }
 
+.Left_Block {
+	width: 15%;
+	/background-color: red;
+	display: inline-block;
+	text-align:right;
+}
 
+.Right_Block {
+	width:85%;
+	/background-color: green;
+	display: inline-block;
+	position: right;
+	margin-left: 40px;
+}
+
+p {
+	margin:0;
+	font-family: 'Raleway', sans-serif;
+	font-size: 1em;
+}
 
 .Title {
-	font-size: 2.5em;
-	font-weight: bold;
-	margin-top: 10px;
-	margin-bottom: 10px;
-	font-family: 'Varela Round', sans-serif;
+	font-weight:bold;
+	font-size: 1.25em
 }
 
-img {
-	width: 500px;
-
-}
-
-.Details {
-	display: inline-block;
-	vertical-align: top;
-	margin-left: 40px;
-	width: 200px;
-}
-
-.Detail_Title {
-	margin-top: 0px;
-	font-size:2em;
-	font-weight: bold;
-	font-family: 'Varela Round', sans-serif;
-	margin-bottom: 10px;
-}
-
-.Detail_Item{
-	margin-top: 0px;
-	font-size:1em;
-	font-family: 'Varela Round', sans-serif;
-}
-
-.View_Project {
-	display: inline-block;
-	vertical-align: top;
-	/margin-left: 40px;
-	background-color: red;
-	width: 100px;
-	height: 500px;
+.Footer_A {
+	width:50%;
 	float: left;
-	/overflow: hidden;
-	/margin-left: 10px;
-	background-color: #33CCCC;
+	font-size: 0.75em;
+}
+
+.Footer_B {
+	width:50%;
+	float: right;
+	text-align:right;
+	font-size: 0.75em;
+
+}
+
+
+@media only screen and (max-width: 768px) {
+    /* For Tablets: */
+:root {
+    --main-width: 70%;
+	--main-padding: 5%;
+}
+
+.Home_Tab {
+	font-size: 1.5em;
+}
+
+.Tab {
+	font-size: 1em;
+	padding-left: 25px;
+}
+
+
+
+.Footer_A {
+	width:100%;
+	text-align:center;
+	/font-size: 1em;
+	float:none;
+}
+
+.Footer_B {
+	width:100%;
+	text-align:center;
+	/font-size: 1em;
+	float:none;
+
+}
+
+
+
+}
+
+@media only screen and (max-width: 480px) {
+    /* For Mobile Phones: */
+:root {
+    --main-width: 85%;
+	--main-padding: 5%;
+}
+
+.Global_Navigation {
+
+	padding-top:20px;
+	padding-bottom: 20px;
+}
+
+.Home_Tab {
+	font-size: 1em;
 	
-	display:flex;
-	align-items:center;
-	justify-content:center;
 }
 
-.View_Project:hover {
-	cursor: pointer;
+.Section {
+	border-width: 10px;
+	padding-bottom: 10%;
+
 }
 
-.Arrow {
-	width: 50px;
-	/display: block;
-	/margin: auto;
+.Tab {
+	font-size: 0.75em;
+	padding-left: 25px;
 }
+
+body { overflow-x: hidden; }
+html { overflow-x: hidden; }
+
+}
+
 
 
 
