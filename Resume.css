@@ -7,22 +7,16 @@
 .Header {
 	width: 100%;
 	background-color: #33CCCC;
-	/padding: 0px;
-	/margin: 0 auto;
-	
 }
 
 .Global_Navigation {
 	width: calc(var(--main-width) + var(--main-padding) + var(--main-padding));
 	margin: 0 auto;
-	/text-align: center;
 	padding-top:40px;
 	padding-bottom: 40px;
 }
 
 .Home_Tab {
-	/padding-left: 50px;
-	/padding-right: 100px;
 	font-size: 2em;
 	font-weight: bold;
 	font-family: 'Assistant', sans-serif;
@@ -37,7 +31,6 @@
 body {
 	background-color: #EAF9F9;
 	margin: 0px;
-	/height: 300%;
 }
 
 a, a:visited , a:hover, a:focus, a:active { text-decoration: none; color:black; }
@@ -58,14 +51,12 @@ a, a:visited , a:hover, a:focus, a:active { text-decoration: none; color:black; 
 
 .Left_Block {
 	width: 15%;
-	/background-color: red;
 	display: inline-block;
 	text-align:right;
 }
 
 .Right_Block {
 	width:85%;
-	/background-color: green;
 	display: inline-block;
 	position: right;
 	margin-left: 40px;
@@ -94,9 +85,7 @@ p {
 	float: right;
 	text-align:right;
 	font-size: 0.75em;
-
 }
-
 
 @media only screen and (max-width: 768px) {
     /* For Tablets: */
@@ -125,19 +114,14 @@ p {
 .Footer_A {
 	width:100%;
 	text-align:center;
-	/font-size: 1em;
 	float:none;
 }
 
 .Footer_B {
 	width:100%;
 	text-align:center;
-	/font-size: 1em;
 	float:none;
-
 }
-
-
 
 }
 
@@ -149,20 +133,17 @@ p {
 }
 
 .Global_Navigation {
-
 	padding-top:20px;
 	padding-bottom: 20px;
 }
 
 .Home_Tab {
 	font-size: 1em;
-	
 }
 
 .Section {
 	border-width: 10px;
 	padding-bottom: 10%;
-
 }
 
 .Tab {
