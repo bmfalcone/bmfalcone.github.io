@@ -48,14 +48,14 @@ a, a:visited , a:hover, a:focus, a:active { text-decoration: none; color:black; 
 }
 
 .Hi {
-	font-size: 3em;
+	font-size: 1.75em;
 	margin-top: 40px;
 	margin-bottom: 0px;
 	font-family: 'Raleway', sans-serif;
 }
 
 .About {
-	font-size: 2em;
+	font-size: 1.75em;
 	margin-bottom: 75px;
 	margin-top: 10px;
 	font-family: 'Raleway', sans-serif;
@@ -184,11 +184,11 @@ img {
 }
 
 .Hi {
-	font-size: 2em;
+	font-size: 1.25em;
 }
 
 .About {
-	font-size: 1.5em;
+	font-size: 1.25em;
 }
 
 h2 {
@@ -257,11 +257,11 @@ img.Snippet {
 }
 
 .Hi {
-	font-size: 1.5em;
+	font-size: 0.75em;
 }
 
 .About {
-	font-size: 1em;
+	font-size: 0.75em;
 	margin-bottom: 40px;
 }
 
