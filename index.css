@@ -258,10 +258,12 @@ img.Snippet {
 
 .Hi {
 	font-size: 0.75em;
+	margin-top: 25px;
 }
 
 .About {
 	font-size: 0.75em;
+	margin-top: 5px;
 	margin-bottom: 40px;
 }
 

@@ -171,11 +171,11 @@ p {
 }
 
 .Title {
-	font-size: 1em;
+	font-size: 0.75em;
 }
 
 p {
-	font-size: 1em;
+	font-size: 0.75em;
 }
 
 body { overflow-x: hidden; }
