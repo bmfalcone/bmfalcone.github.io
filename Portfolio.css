@@ -38,7 +38,7 @@ a, a:visited , a:hover, a:focus, a:active { text-decoration: none; color:black; 
 .Body {
 	width: calc(var(--main-width) + var(--main-padding) + var(--main-padding));
 	margin: 0 auto;
-	margin-bottom: 30%;
+	margin-bottom: 50px;
 	margin-top: 20px;
 	position: relative;
 }
