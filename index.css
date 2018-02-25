@@ -97,7 +97,7 @@ img {
 
 .Detail_Title {
 	margin-top: 0px;
-	font-size:1.5em;
+	font-size:2em;
 	font-weight: bold;
 	font-family: 'Raleway', sans-serif;
 	margin-bottom: 10px;
@@ -105,7 +105,7 @@ img {
 
 .Detail_Item{
 	margin-top: 0px;
-	font-size:1em;
+	font-size:1.5em;
 	font-family: 'Varela Round', sans-serif;
 	margin-bottom: 0px;
 }
@@ -144,6 +144,19 @@ img {
 	float: right;
 	text-align:right;
 	font-size: 0.75em;
+}
+
+@media only screen and (max-width: 1200px) {
+    /* Size Adjustment Before Tablet: */
+
+.Detail_Title{
+	font-size:1.5em;
+}
+
+.Detail_Item{
+	font-size:0.9em;
+}
+	
 }
 
 @media only screen and (max-width: 768px) {
@@ -205,10 +218,11 @@ img.Snippet {
 
 .Detail_Title{
 	font-size:1em;
+	margin-bottom: 5px;
 }
 
 .Detail_Item{
-	font-size:0.75em;
+	font-size:0.7em;
 }
 
 }
