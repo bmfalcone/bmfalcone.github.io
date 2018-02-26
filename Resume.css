@@ -50,16 +50,16 @@ a, a:visited , a:hover, a:focus, a:active { text-decoration: none; color:black; 
 }
 
 .Left_Block {
-	width: 15%;
+	width: 20%;
 	display: inline-block;
 	text-align:right;
 }
 
 .Right_Block {
-	width:85%;
+	width:75%;
 	display: inline-block;
 	position: right;
-	margin-left: 40px;
+	margin-left: 5%;
 }
 
 p {
