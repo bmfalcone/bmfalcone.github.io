@@ -112,6 +112,9 @@ img {
 	width:50%;
 	float: left;
 	font-size: 0.75em;
+	font-family: 'Raleway', sans-serif;
+	margin-top: 0px;
+	margin-bottom: 5px;
 }
 
 .Footer_B {
@@ -119,7 +122,9 @@ img {
 	float: right;
 	text-align:right;
 	font-size: 0.75em;
-
+	font-family: 'Raleway', sans-serif;
+	margin-top: 0px;
+	margin-bottom: 5px;
 }
 
 @media only screen and (max-width: 1200px) {
