@@ -45,7 +45,7 @@ a, a:visited , a:hover, a:focus, a:active { text-decoration: none; color:black; 
 
 .Chunk {
 	width: 100%;
-	margin-bottom:75px;
+	margin-bottom:50px;
 	display: flex;
 }
 
