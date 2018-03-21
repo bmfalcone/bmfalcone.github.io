@@ -130,6 +130,7 @@ img {
 	display:flex;
 	align-items:center;
 	justify-content:center;
+	box-shadow: -8px 0px 10px -8px black;
 }
 
 .View_Project:hover {
