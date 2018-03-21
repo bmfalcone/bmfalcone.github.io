@@ -6,7 +6,14 @@
 
 .Header {
 	width: 100%;
-	background-color: #33CCCC;	
+	/background-color: #33CCCC;
+	background: linear-gradient(to right, #33CCCC , #00ffcc);
+}
+
+.Footer {
+	width: 100%;
+	background-color: #33CCCC;
+	background: linear-gradient(to right, #00ffcc, #33CCCC);
 }
 
 .Global_Navigation {
