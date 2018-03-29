@@ -17,7 +17,8 @@
 }
 
 .Global_Navigation {
-	width: calc(var(--main-width) + var(--main-padding) + var(--main-padding));
+	/width: calc(var(--main-width) + var(--main-padding) + var(--main-padding));
+	width: calc(60% + 5% + 5%);
 	margin: 0 auto;
 	padding-top:40px;
 	padding-bottom: 40px;
@@ -43,7 +44,8 @@ body {
 a, a:visited , a:hover, a:focus, a:active { text-decoration: none; color:black; }
 
 .Body {
-	width: calc(var(--main-width) + var(--main-padding) + var(--main-padding));
+	/width: calc(var(--main-width) + var(--main-padding) + var(--main-padding));	
+	width: calc(60% + 5% + 5%);
 	margin: 0 auto;
 	margin-bottom: 30%;
 	margin-top: 40px;
@@ -105,6 +107,16 @@ p {
 	--main-padding: 5%;
 }
 
+.Global_Navigation {
+	/width: calc(var(--main-width) + var(--main-padding) + var(--main-padding));
+	width: calc(70% + 5% + 5%);
+}
+
+.Body {
+	/width: calc(var(--main-width) + var(--main-padding) + var(--main-padding));	
+	width: calc(70% + 5% + 5%);
+}
+
 .Home_Tab {
 	font-size: 1.5em;
 }
@@ -147,8 +159,15 @@ p {
 }
 
 .Global_Navigation {
+	/width: calc(var(--main-width) + var(--main-padding) + var(--main-padding));
+	width: calc(85% + 5% + 5%);
 	padding-top:20px;
 	padding-bottom: 20px;
+}
+
+.Body {
+	/width: calc(var(--main-width) + var(--main-padding) + var(--main-padding));	
+	width: calc(85% + 5% + 5%);
 }
 
 .Home_Tab {
