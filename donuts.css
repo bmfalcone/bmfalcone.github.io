@@ -1,0 +1,332 @@
+
+:root {
+    --main-width: 60%;
+	--main-padding: 5%;
+}
+
+.Header {
+	width: 100%;
+	/background-color: #33CCCC;
+	background: linear-gradient(to right, #33CCCC , #00ffcc);
+}
+
+.Footer {
+	width: 100%;
+	background-color: #33CCCC;
+	background: linear-gradient(to right, #00ffcc, #33CCCC);
+}
+
+.Global_Navigation {
+	/width: calc(var(--main-width) + var(--main-padding) + var(--main-padding));	
+	width: calc(60% + 5% + 5%);
+	margin: 0 auto;
+	padding-top:40px;
+	padding-bottom: 40px;
+}
+
+.Home_Tab {
+	font-size: 2em;
+	font-weight: bold;
+	font-family: 'Assistant', sans-serif;
+}
+
+.Tab {
+	padding-left: 50px;
+	font-size: 1.5em;
+	font-family: 'Varela Round', sans-serif;
+}
+
+body {
+	background-color: #374949;
+	margin: 0px;
+}
+
+a, a:visited , a:hover, a:focus, a:active { text-decoration: none; color:black; }
+
+.Header_Section {
+	text-align: center;
+	width: 33.333%;
+	float: left;
+	font-size: 1.5em;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	background-color:   #1976D2;
+	font-family: 'Raleway', sans-serif;
+	color: white;
+}
+
+.Section {
+	/width: var(--main-width);	
+	width: 60%;
+	margin: 0 auto;
+	margin-top:20px;
+	margin-bottom: 40px;
+	/padding: var(--main-padding);
+	padding: 5%;
+	border-style: solid;
+	border-width: 20px;
+	border-left: none;
+	border-right: none;
+	border-bottom: none;
+	border-color: #33CCCC;
+	overflow: auto;
+}
+
+h1 {
+	font-size: 4em;
+	font-family: 'Assistant', sans-serif;
+	color: #33CCCC;
+	
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+h2 {
+	font-size: 1.25em;	
+	font-family: 'Assistant', sans-serif;
+	font-weight: bold;	
+	margin-top: 30px;
+}
+
+h3 {
+	font-size: 3em;
+	font-family: 'Assistant', sans-serif;
+	color: black;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+p {
+	font-size: 1em;
+	font-family: 'Varela Round', sans-serif;
+	width: 100%;
+	margin: 0 auto;
+	margin-bottom: 20px;
+}
+
+ol{
+	padding-left: 50px;
+}
+
+ul {
+	padding-left: 50px;
+}
+
+li {
+	font-size: 1.5em;
+	font-family: 'Raleway', sans-serif;
+}
+
+.Snippet_Container {
+	text-align:center;
+	width: 100%;
+	margin:0 auto;
+	padding:0;
+}
+
+img.Snippet {
+	width: 30%;
+	max-width: 200px;
+	display: inline-block;
+	margin: 1%;
+	margin-top: 20px;
+	margin-bottom: 0px;
+}
+
+.TOC_Item {
+	margin-bottom: 0px;
+}
+
+img.Sketch {
+	width: 33%;
+	float: left;
+	display: inline-block;
+	margin-left: 0px;
+	padding-bottom: 40px;
+}
+
+img {
+	width: 33%;
+	display: inline-block;
+}
+
+img.Large_Image {
+	width: 100%;
+	margin-top: 20px;
+}
+
+img.Duo_Image {
+	width: 50%;
+	margin:0 auto;
+	padding:0;
+	float: left;
+}
+
+img.Number_Image {
+	width:30px;
+	height:30px;
+	float: left;
+	margin-right: 5px;
+}
+
+.Gif {
+	width:80%;
+	margin-top: 30px;
+
+}
+
+.Number_Title {
+	font-size: 1.25em;
+	font-family: 'Assistant', sans-serif;
+	font-weight: bold;
+}
+
+
+.Block_Half_Left {
+	width:50%;
+	/float: left;
+	/background: green;
+	display: inline-block;
+
+}
+
+.Block_Half_Right{
+	width:50%;
+	float: right;
+	display: inline-block;
+	/background-color: green;
+}
+
+.Footer_A {
+	width:50%;
+	float: left;
+	font-size: 0.75em;
+	font-family: 'Raleway', sans-serif;
+	margin-top: 0px;
+	margin-bottom: 5px;
+}
+
+.Footer_B {
+	width:50%;
+	float: right;
+	text-align:right;
+	font-size: 0.75em;
+	font-family: 'Raleway', sans-serif;
+	margin-top: 0px;
+	margin-bottom: 5px;
+}
+
+@media only screen and (max-width: 768px) {
+    /* For Tablets: */
+:root {
+    --main-width: 70%;
+	--main-padding: 5%;
+}
+
+.Global_Navigation {
+	/width: calc(var(--main-width) + var(--main-padding) + var(--main-padding));	
+	width: calc(70% + 5% + 5%);
+}
+
+.Section {
+	/width: var(--main-width);	
+	width: 70%;
+	/padding: var(--main-padding);
+	padding: 5%;
+}
+
+.Home_Tab {
+	font-size: 1.5em;
+}
+
+.Tab {
+	font-size: 1em;
+	padding-left: 25px;
+}
+
+
+h1 {
+	font-size: 3em;
+}
+
+img.Snippet {
+	width: 25%;
+}
+
+.Footer_A {
+	width:100%;
+	text-align:center;
+	float:none;
+}
+
+.Footer_B {
+	width:100%;
+	text-align:center;
+	float:none;
+}
+
+}
+
+@media only screen and (max-width: 480px) {
+    /* For Mobile Phones: */
+:root {
+    --main-width: 85%;
+	--main-padding: 5%;
+}
+
+.Global_Navigation {
+	/width: calc(var(--main-width) + var(--main-padding) + var(--main-padding));	
+	width: calc(85% + 5% + 5%);
+	padding-top:20px;
+	padding-bottom: 20px;
+}
+
+.Home_Tab {
+	font-size: 1em;
+}
+
+.Section {
+	/width: var(--main-width);	
+	width: 85%;
+	/padding: var(--main-padding);
+	padding: 5%;
+	border-width: 10px;
+	padding-bottom: 10%;
+}
+
+.Tab {
+	font-size: 0.75em;
+	padding-left: 25px;
+}
+
+h1 {
+	font-size: 2em;
+}
+
+h3 {
+	font-size: 2em;
+}
+
+img.Snippet {
+	width: 25%;
+}
+
+.Block_Half_Left {
+	width:100%;
+}
+
+.Block_Half_Right{
+	width:100%;
+	float:left;
+}
+
+.Gif {
+	width: 100%;
+}
+
+body { overflow-x: hidden; }
+html { overflow-x: hidden; }
+
+}
+
