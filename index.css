@@ -73,7 +73,7 @@ h2 {
 	/width: calc(var(--main-width) + var(--main-padding) + var(--main-padding));	
 	width: calc(60% + 5% + 5%);
 	margin: 0 auto;
-	margin-bottom: 30%;
+	/margin-bottom: 30%;
 	margin-top: 20px;
 	position: relative;
 }
