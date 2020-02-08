@@ -47,6 +47,67 @@ a, a:visited , a:hover, a:focus, a:active { text-decoration: none; color:black; 
 	/width: calc(var(--main-width) + var(--main-padding) + var(--main-padding));
 	width: calc(60% + 5% + 5%);
 	margin: 0 auto;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	overflow: hidden;
+	--padding-bottom: 5px;
+}
+
+.WelcomeTextContainer {
+	width: 60%;
+	float: left;
+}
+
+.WelcomeText {
+	padding: 0;
+	margin: 0;
+	margin-bottom: 2px;
+	font-size: 1.5em;
+	font-family: 'Raleway', sans-serif;
+}
+
+.WelcomeTextBold {
+	padding: 0;
+	margin: 0;
+	margin-bottom: 2px;
+	font-size: 2em;
+	font-family: 'Raleway', sans-serif;
+	font-weight: bold;
+}
+
+.ResumeContainer {
+	width: 40%;
+	float: left;
+	
+}
+
+.ResumeButton{
+	background-color: #33CCCC;
+	text-align: center;
+	--padding: 20px 70px 20px 70px;
+	--margin-left: 20px;
+	border-radius: 5px;
+	float: right;
+	box-shadow: -5px 5px 10px #aaaaaa;
+	min-width: 100%;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	margin-right: 10px;
+	margin-top: 10px;
+}
+
+.ResumeButton:hover {
+	cursor: pointer;
+	-webkit-transform: scale(1.03);
+	-webkit-transition: all .1s ease-in-out;
+}
+
+.ResumeButtonText {
+	font-size: 1.5em;
+	font-family: 'Raleway', sans-serif;
+	font-weight: bold;
+	margin: 0;
+	padding: 0;
 }
 
 .Hi {
@@ -67,6 +128,8 @@ h2 {
 	font-size: 2em;
 	margin-bottom: 20px;
 	font-family: 'Raleway', sans-serif;
+	padding-top: 5px;
+	margin-top: 40px;
 }
 
 .Body {
@@ -88,6 +151,71 @@ h2 {
 
 img {
 	width:50%;
+}
+
+.PortfolioImage {
+	width: 30%;
+	margin-left: 1%;
+	margin-right: 1%;
+	margin-bottom: 1%;
+	display: inline-block;
+}
+
+.Skills {
+	width: calc(60% + 5% + 5%);
+	margin: 0 auto;
+	margin-top: 20px;
+	border-top: 2px solid black;
+}
+
+.BigSkillsTable {
+	
+}
+
+.BigSkillsTable td {
+	padding-right: 10px;
+}
+
+.BigSkillsTable tr {
+	margin-bottom: 10px;
+}
+
+.BigSkill {
+	width: 100%;	
+}
+
+.LongSkill {
+	width: 100%;
+}
+
+.SmallSkillsTable td {
+	margin: 0;
+	padding: 0;
+	padding-right: 10px;
+}
+
+.SmallSkillsTable tr {
+	margin-bottom: 0px;
+}
+
+.PortfolioItem {
+	width: 100%;
+}
+
+.PortfolioItem:hover {
+	cursor: pointer;
+	-webkit-transform: scale(1.03);
+	-webkit-transition: all .1s ease-in-out;
+	box-shadow: 0px 0px 20px #aaaaaa;
+
+}
+
+.PortfolioTable td {
+	padding-right: 10px;
+}
+
+.PortfolioTable tr {
+	margin-bottom: 10px;
 }
 
 .Title {
@@ -195,7 +323,13 @@ img {
 	width: calc(70% + 5% + 5%);
 }
 
+
 .Body {
+	/width: calc(var(--main-width) + var(--main-padding) + var(--main-padding));	
+	width: calc(70% + 5% + 5%);
+}
+
+.Skills {
 	/width: calc(var(--main-width) + var(--main-padding) + var(--main-padding));	
 	width: calc(70% + 5% + 5%);
 }
@@ -219,6 +353,22 @@ img {
 
 h2 {
 	font-size: 1.5em;
+}
+
+.WelcomeText {
+	font-size: 1em;
+}
+
+.WelcomeTextBold {
+	font-size: 1.5em;
+}
+
+.ResumeButton {
+	
+}
+
+.ResumeButtonText {
+	font-size: 1em;
 }
 
 h1 {
@@ -285,6 +435,12 @@ img.Snippet {
 	width: calc(85% + 5% + 5%);
 }
 
+.Skills {
+	/width: calc(var(--main-width) + var(--main-padding) + var(--main-padding));	
+	width: calc(85% + 5% + 5%);
+}
+
+
 .Home_Tab {
 	font-size: 1em;
 	
@@ -303,6 +459,22 @@ img.Snippet {
 
 h2 {
 	font-size: 1em;
+	margin-top: 20px;
+}
+
+.WelcomeText {
+	font-size: .8em;
+}
+
+.WelcomeTextBold {
+	font-size: 1em;
+}
+
+.ResumeButton {
+	padding-top: 12px;
+	padding-bottom: 12px;
+	box-shadow: -3px 3px 5px #aaaaaa;
+
 }
 
 .Section {
