@@ -440,6 +440,18 @@ img.Snippet {
 	width: calc(85% + 5% + 5%);
 }
 
+.BigSkillsTable td {
+	padding-right: 3px;
+}
+
+.BigSkillsTable tr {
+	margin-bottom: 3px;
+}
+
+.SmallSkillsTable td {
+	padding-right: 3px;
+}
+
 
 .Home_Tab {
 	font-size: 1em;
